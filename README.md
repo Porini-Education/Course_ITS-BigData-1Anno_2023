@@ -1,4 +1,6 @@
-# <img src="https://github.com/Porini-Education/Course_ITS-BigData-2/assets/44498091/6f00b230-b464-40ba-bc09-b565f6acc0cd" width=90px> Repository of Material for BigData 1<sup>st</sup> Year Course - [ITS Incom](https://itsincom.it/)
+<img src="https://github.com/Porini-Education/Course_ITS-BigData-2/assets/44498091/6f00b230-b464-40ba-bc09-b565f6acc0cd" width=90px> 
+
+# Repository of Material for BigData 1<sup>st</sup> Year Course - [ITS Incom](https://itsincom.it/)
 
 ## Curated by [Porini Education](https://www.porini.it)
 

@@ -1,0 +1,4 @@
+Solutions dedicata al materiale di laboratorio del corso base di TSQL
+
+Versione 2.1
+2023.06.07

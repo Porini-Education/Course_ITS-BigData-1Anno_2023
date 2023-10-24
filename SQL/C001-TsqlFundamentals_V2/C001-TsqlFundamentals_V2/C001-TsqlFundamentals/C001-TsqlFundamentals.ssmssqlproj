@@ -1,0 +1,215 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="C001-TsqlFundamentals">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="localhost:AzureAD\MatteoBeshara">
+          <Created>2023-06-06T17:52:29.0838218+02:00</Created>
+          <Type>SQL</Type>
+          <Server>localhost</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="P-MBESHARA:AzureAD\MatteoBeshara">
+          <Created>2023-10-06T11:10:03.9204741+02:00</Created>
+          <Type>SQL</Type>
+          <Server>P-MBESHARA</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>ITSJSON</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="000A_CreateDatabase_TestC001.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>000A_CreateDatabase_TestC001.sql</FullPath>
+        </FileNode>
+        <FileNode Name="001A_LoadExampleData.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>001A_LoadExampleData.sql</FullPath>
+        </FileNode>
+        <FileNode Name="002A_CreateDB_Cloud.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>002A_CreateDB_Cloud.sql</FullPath>
+        </FileNode>
+        <FileNode Name="002B_LoadAzure.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>002B_LoadAzure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="090_DeclarativeLanguage.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>090_DeclarativeLanguage.sql</FullPath>
+        </FileNode>
+        <FileNode Name="100_CreateTable.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>100_CreateTable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="110_Select_SingleTable.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>110_Select_SingleTable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="120_Select_Predicate.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>120_Select_Predicate.sql</FullPath>
+        </FileNode>
+        <FileNode Name="130_CharacterData.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>130_CharacterData.sql</FullPath>
+        </FileNode>
+        <FileNode Name="140_DateTime.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>140_DateTime.sql</FullPath>
+        </FileNode>
+        <FileNode Name="150_Join.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>150_Join.sql</FullPath>
+        </FileNode>
+        <FileNode Name="160_SubQuery.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>160_SubQuery.sql</FullPath>
+        </FileNode>
+        <FileNode Name="170_TableExpression.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>170_TableExpression.sql</FullPath>
+        </FileNode>
+        <FileNode Name="180_Set.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>180_Set.sql</FullPath>
+        </FileNode>
+        <FileNode Name="190_WindowsFunctions.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>190_WindowsFunctions.sql</FullPath>
+        </FileNode>
+        <FileNode Name="191_Pivoting.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>191_Pivoting.sql</FullPath>
+        </FileNode>
+        <FileNode Name="200_DataModification.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>200_DataModification.sql</FullPath>
+        </FileNode>
+        <FileNode Name="210_TemporaryTable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:P-MBESHARA:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>P-MBESHARA</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>210_TemporaryTable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="220_ProgrammableObjects.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>220_ProgrammableObjects.sql</FullPath>
+        </FileNode>
+        <FileNode Name="601_JsonFunction.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>601_JsonFunction.sql</FullPath>
+        </FileNode>
+        <FileNode Name="605_ImportMarriage.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>605_ImportMarriage.sql</FullPath>
+        </FileNode>
+        <FileNode Name="606_ImportFlights.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>606_ImportFlights.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LAB100_CreateTable.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LAB100_CreateTable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LAB110_SelectSingleTable.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LAB110_SelectSingleTable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LAB150_Join.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LAB150_Join.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LAB160_Subquery.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LAB160_Subquery.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LAB180_SET.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LAB180_SET.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LAB200_DataModification.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LAB200_DataModification.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items>
+        <FileNode Name="Note.txt">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Note.txt</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

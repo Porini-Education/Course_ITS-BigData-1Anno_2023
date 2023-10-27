@@ -1,0 +1,17 @@
+DATI:
+ - STRUTTURATI: tutti gli elementi hanno le stesse proprietà e gli 
+				stessi tipi
+				
+ - SEMISTRUTTURATI: gli elementi possono avere diverse proprietà
+				
+ - NON STRUTTURATI: non hanno una struttura, non hanno proprietà
+				
+Per interrogare i dati strutturati (nati per primi) usiamo il 
+linguaggio SQL:
+	Structured
+	Query
+	Language
+	
+ON-PREMISE ->  CLOUD
+Microsoft  ->  Azure
+Amazon     ->  AWS (Amazon Web Services)

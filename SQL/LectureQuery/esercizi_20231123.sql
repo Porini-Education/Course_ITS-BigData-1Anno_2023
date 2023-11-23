@@ -35,11 +35,17 @@ Strumenti a disposizione:
  - NON posso prendere nessuna tabella come punto di partenza
  - CTE
  - Window Function
+ - SET OPERATIONS
 */
 
-select
-	ROW_NUMBER() OVER (ORDER BY (select 1) )
-from sys.all_columns		--11 102
+WITH 
+ cteA as (SELECT 1 AS N UNION ALL SELECT 1)						--2
+,cteB as (select 1 as N from cteA a cross join cteA b)			--4
+,cteC as (select 1 as N from cteB a cross join cteB b)			--16
+,cteD as (select 1 as N from cteC a cross join cteC b)			--256
+,cteE as (select 1 as N from cteD a cross join cteD b)			--65536
+,cteF as (select 1 as N from cteE a cross join cteE b)			--4294967296
 
-
-(1,2,3)
+select top 100000 
+	ROW_NUMBER() OVER (ORDER BY N ) as N
+from cteF

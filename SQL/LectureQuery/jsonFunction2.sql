@@ -85,6 +85,19 @@ from ctePersone a
 left outer join cteAnimali b
 on a.[key]= b.[key]
 
+-- seconda modalità
+
+select 
+	json_value (a.value,'$.Nome') as Persona,
+	json_value (a.value,'$.Luogo') as LuogoPersona,
+	json_value (a.value,'$.Eta') as EtaPersona,
+	json_value (b.value, '$.Tipo') as TipoAnimale,
+	json_value (b.value, '$.Nome') as NomeAnimale,
+	json_value (b.value, '$.Eta') as EtaAnimale
+	from openjson (@j) a
+	outer apply openjson (json_query(a.value,'$.Animali')) b
+;
+
 
 /*
 create table dbo.j2

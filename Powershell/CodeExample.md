@@ -1,6 +1,6 @@
 # First examples of Powershell code
 
-``` PS
+```powershell
 # ************************************************** #
 #
 # Esempi corso Powershell - 01
